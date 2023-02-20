@@ -1,0 +1,88 @@
+.father{
+  background-color: rgb(23, 23, 23);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.roundbtn{
+  background-color: purple;
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  border-style: none;
+  -webkit-box-shadow: 1px -1px 60px 13px rgba(250,135,250,1);
+  -moz-box-shadow: 1px -1px 60px 13px rgba(250,135,250,1);
+  box-shadow: 1px -1px 60px 13px rgba(250,135,250,1);
+}
+
+.lines{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid purple;
+  height: 200px;
+  width: 200px;
+  border-radius: 300px;
+  flex-direction: column;
+  animation: mymove 2s infinite;
+}
+.ico0{
+  border: 1px solid red;
+  height: 10px;
+  width:10px;
+  margin-top: -20px;
+  margin-bottom: 90px;
+  animation: mymove 10s;
+}
+.ico1{
+  border: 1px solid red;
+  height: 10px;
+  width:10px;
+  margin-top: -30px;
+  margin-bottom: 90px;
+  margin-left: 20px;
+  animation: mymove 10s;
+}
+.ico2{
+  border: 1px solid red;
+  height: 10px;
+  width:10px;
+  margin-top: -30px;
+  margin-bottom: 90px;
+  margin-left: 20px;
+  animation: mymove 10s;
+}
+.ico3{
+  border: 1px solid red;
+  height: 10px;
+  width:10px;
+  margin-top: -50px;
+  margin-bottom: 90px;
+  margin-left: 20px;
+  margin-top: -20px;
+  animation: mymove 10s;
+}
+
+
+.icofather{
+  
+  display: flex;
+  /* display: none; */
+  animation: mymove 4s;
+}
+
+.icopre{
+  display: flex;
+  display: none;
+}
+
+
+@keyframes mymove {
+  from {transform: rotate(-180deg);}
+  to {
+    transform: rotate(0deg);
+  }
+}
